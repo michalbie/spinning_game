@@ -166,5 +166,6 @@ anims/ExtendedRecoilEnd = SubResource( 5 )
 anims/ExtendedRecoilStart = SubResource( 6 )
 anims/SniperRecoil = SubResource( 7 )
 anims/SoldierRecoil = SubResource( 8 )
+
 [connection signal="animation_changed" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_changed"]
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
